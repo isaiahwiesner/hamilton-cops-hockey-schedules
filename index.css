@@ -20,12 +20,12 @@
 
 @media only screen and (max-width: 600px;) {
   .mobile-hidden {
-    display: none;
+    display: hidden;
   }
 }
 @media only screen and (min-width: 600px;) {
   .desktop-hidden {
-    display: none;
+    display: hidden;
   }
 }
 
