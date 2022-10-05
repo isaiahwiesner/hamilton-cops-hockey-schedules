@@ -24,7 +24,7 @@
 
 body {
   padding: 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.mohawk4icecentre.ca/wp-content/themes/2gen/img/bg.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.mohawk4icecentre.ca/wp-content/themes/2gen/img/bg.png) no-repeat;
   background-position: center;
   background-size: cover;
   display: grid;
@@ -38,7 +38,7 @@ body {
   gap: .5rem;
   width: 100%;
   max-width: 50rem;
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,.7);
   padding: 1rem;
   border-radius: .5rem;
 }
@@ -104,9 +104,15 @@ h1 {
   color: var(--stars-text);
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-text {
   color: gray;
   font-size: 12px;
-  margin-top: 12px;
+  margin-top: .5rem;
   text-decoration: none;
 }
